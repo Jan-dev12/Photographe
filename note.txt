@@ -1,0 +1,16 @@
+étapes d'optimisations du sites :
+
+-changement des photos png en webp
+-re dimensionner les images pour une taille environ 2000px
+-mise en place des média query pour que l'image soit responsive
+-ajout des alt dans les img 
+-ajout d'un titre dans le head
+-changement de h6 en h3 pour qu'il soit classé par ordre décroissant
+-attacher les label
+-contraste changé
+
+attacher les imputs
+aria label ajouter *
+meta-description raconter le site  (150 à 200 caractere environ)
+ajout de micro data via json-ld 
+
