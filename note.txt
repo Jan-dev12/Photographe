@@ -9,8 +9,8 @@
 -attacher les label
 -contraste changé
 
-attacher les imputs
+attacher les imputs *
 aria label ajouter *
-meta-description raconter le site  (150 à 200 caractere environ)
-ajout de micro data via json-ld 
+meta-description raconter le site  (150 à 200 caractere environ) *
+ajout de micro data via json-ld *
 

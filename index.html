@@ -2,6 +2,7 @@
 <html lang="fr">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Découvrez le portfolio de Nina Carducci, photographe indépendante. Séances photo, retouches et albums personnalisés. Contactez-moi !">
 		<meta http-equiv="Cache-Control" content="public, max-age=31536000">
 		<meta http-equiv="Pragma" content="public">
 		<meta http-equiv="Expires" content="Wed, 31 Dec 2030 23:59:59 GMT">
@@ -201,13 +202,13 @@
 						<h3>Une question ? Une demande de devis ?</h3>
 						<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 						<form action="" method="post">
-							<label for="nom">Nom</label>
-							<input type="text" name="nom" id="nom">
-							<label for="email">Email</label>
-							<input type="email" name="email" id="email">
-							<label for="message">Message</label>
+							<label id="label-nom" for="nom">Nom</label>
+							<input type="text" aria-labelledby="label-nom" name="nom" id="nom">
+							<label id="label-email" for="email">Email</label>
+							<input type="email" aria-labelledby="label-email" name="email" id="email">
+							<label id="label-message" for="message">Message</label>
 							<textarea name="message" id="message" cols="30" rows="10"></textarea>
-							<input type="submit" value="Envoyer"/>
+							<input type="submit" aria-labelledby="label-message" value="Envoyer"/>
 						</form>
 					</div>
 					
