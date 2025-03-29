@@ -14,3 +14,16 @@ aria label ajouter *
 meta-description raconter le site  (150 à 200 caractere environ) *
 ajout de micro data via json-ld *
 
+faire un tabelau
+
+1 premiere colonne : mettre probleme decrit (verificationcontrastebouton et)
+2                    explique en quoi c'est un probleme (pourquoi c'est important de cntaster)
+3                    explique comment corriger
+4                    mettre le lien sur l'outils ou la documenttion 
+
+copy du vericateur schéma
+
+identite
+comment me contacter
+proprieter intellectuelle
+hebergeur

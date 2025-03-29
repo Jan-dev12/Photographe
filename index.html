@@ -3,8 +3,7 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Découvrez le portfolio de Nina Carducci, photographe indépendante. Séances photo, retouches et albums personnalisés. Contactez-moi !">
-		<meta http-equiv="Cache-Control" content="public, max-age=31536000">
-		<meta http-equiv="Pragma" content="public">
+		<meta http-equiv="Cache-control" content="public, max-age=31536000">
 		<meta http-equiv="Expires" content="Wed, 31 Dec 2030 23:59:59 GMT">
 		<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 		<link rel="stylesheet" href="./assets/style.css">
@@ -19,10 +18,20 @@
 				"@context": "https://schema.org",
 				"@type" : "LocalBusiness",
 				"name" : "Nina Carducci",
+				"telephone" : "05 56 67 78 89",
 				"hasMap": "https://maps.google.com/maps?cid=YOURCIDNUMBER",
 				"url" : "https://jan-dev12.github.io/Photographe/",
 				"priceRange" : "$350 - $400",
-				"description" : "C'est le site de Nina Carducci qui est un portfolio d'une Photographe qui vend ses services pour faire des séances photo, des retouches et des albums photos, on y retrouve dans son portfolio les photos qu'elle a fait dans différents endroits ainsi que ses coordonnées pour qu'on puisse la contacter"
+				"description" : "C'est le site de Nina Carducci qui est un portfolio d'une Photographe qui vend ses services pour faire des séances photo, des retouches et des albums photos, on y retrouve dans son portfolio les photos qu'elle a fait dans différents endroits ainsi que ses coordonnées pour qu'on puisse la contacter",
+				"address" :
+				{
+					"@type": "PostalAddress",
+					"streetAddress": "68 avenue Alsace-Lorraine",
+					"addressLocality": "Bordeaux",
+					"postalCode": "33200",
+					"addressCountry": "FR"
+				},
+				"openingHours": "Mo-Fr 10:00-19:00"
 			}
 		</script>
 		<title>Site Nina Carducci</title>
@@ -42,7 +51,7 @@
 							<li><a href="#gallery" aria-label="Voir la gallerie de Nina Carducci">Galerie</a></li>
 							<li><a href="#services" aria-label="Voir les Services que propose Nina Carducci">Service</a></li>
 							<li><a href="#contact" aria-label="Voir comment contacter Nina Carducci">Contact</a></li>
-							<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp" alt=""></a></li>
+							<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp" alt="icone instagram"></a></li>
 						</ul>
 					</div>
 					
@@ -117,15 +126,15 @@
 								
 								<div class="container py-3">
 									<div class="gallery" style="display: none">
-										<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="aaron-paul"/>
-										<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" alt="ali-morshedlou"/>
-										<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="jason-goodman"/>
-										<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="hannah-busing"/>
-										<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="ade-tunji"/>
-										<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="jakob-owens"/>
-										<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" alt="nino-van"/>
-										<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="austin-neill"/>
-										<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="mateus-campos"/>
+										<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="aaron-paul" title="">
+										<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" alt="ali-morshedlou" title="">
+										<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="jason-goodman" title="">
+										<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp" alt="hannah-busing" title="">
+										<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp" alt="ade-tunji" title="">
+										<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp" alt="jakob-owens" title="">
+										<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp" alt="nino-van" title="">
+										<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp" alt="austin-neill" title="">
+										<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp" alt="mateus-campos" title="">
 									</div>
 								</div>
 							
@@ -201,6 +210,7 @@
 					<div class="form-container">
 						<h3>Une question ? Une demande de devis ?</h3>
 						<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
+						<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 						<form action="" method="post">
 							<label id="label-nom" for="nom">Nom</label>
 							<input type="text" aria-labelledby="label-nom" name="nom" id="nom">
@@ -220,9 +230,9 @@
 			</div>
 
 		</footer>
+		<!--mettre les script js en bas de body pour que la page puisse se charger rapidement et qu'iln'ai pas d'erreur de DOM-->
+		<script src="./assets/maugallery.js"></script>
+		<script src="./assets/scripts.js"></script>
 	</body>
 
-	<!--mettre les script js en bas de body pour que la page puisse se charger rapidement et qu'iln'ai pas d'erreur de DOM-->
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
 </html>
